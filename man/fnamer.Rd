@@ -3,8 +3,14 @@
 \docType{package}
 \name{fnamer}
 \alias{fnamer}
-\alias{fnamer-package}
 \title{fnamer: Collection of functions to handle and maniputate filenames.}
 \description{
-fnamer: Collection of functions to handle and maniputate filenames.
+This package does not export any objects.
+}
+\details{
+This package exports the following functions:
+
+* \code{\link{get_filename_extension}}
+* \code{\link{change_filename_extension}}
+* \code{\link{bare_filename}}
 }

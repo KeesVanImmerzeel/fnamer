@@ -29,9 +29,6 @@ get_filename_extension <- function(a_filename) {
 #' change_filename_extension(c("test.txt", "test.dat"))
 #' change_filename_extension(as.list(c("test.txt", "test.dat")))
 #' @export
-#' @importFrom magrittr "%>%"
-#' @importFrom magrittr "%<>%"
-#'
 change_filename_extension <-
       function(a_filename, new_ext = ".tif") {
             if ((typeof(a_filename) == "character") & (length(a_filename) == 1)) {
@@ -68,7 +65,6 @@ change_filename_extension <-
 #' @param a_filename (character) filename
 #' @return character filename without path and extension
 #' @examples
-#'
 #' bare_filename(file.path("tmp", "test.dat"))
 #' bare_filename(c(file.path("tmp", "test1.dat"), file.path("tmp", "test2.dat")))
 #' bare_filename(as.list(c(
