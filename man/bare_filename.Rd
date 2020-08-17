@@ -16,7 +16,6 @@ character filename without path and extension
 Return the bare filename (no path, no extension)
 }
 \examples{
-
 bare_filename(file.path("tmp", "test.dat"))
 bare_filename(c(file.path("tmp", "test1.dat"), file.path("tmp", "test2.dat")))
 bare_filename(as.list(c(

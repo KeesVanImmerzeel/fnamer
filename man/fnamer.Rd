@@ -9,8 +9,9 @@ This package does not export any objects.
 }
 \details{
 This package exports the following functions:
-
-* \code{\link{get_filename_extension}}
-* \code{\link{change_filename_extension}}
-* \code{\link{bare_filename}}
+\itemize{
+\item \code{\link{get_filename_extension}}
+\item \code{\link{change_filename_extension}}
+\item \code{\link{bare_filename}}
+}
 }

@@ -15,5 +15,6 @@ Imports:
     magrittr (>= 1.5),
     tools (>= 3.6.1)
 RoxygenNote: 7.1.0
+Roxygen: list(markdown = TRUE)
 Suggests: 
     testthat
