@@ -1,0 +1,19 @@
+Package: fnamer
+Title: Functions to handle and maniputate filenames
+Version: 0.0.0.9000
+Authors@R: 
+        person(given = "Kees",
+               family = "van Immerzeel",
+               role = c("aut", "cre"),
+               email = "idodoes@xs4all.nl")
+Description: Collection of functions to handle and maniputate filenames. 
+        For now: get_filename_extension and change_filename_extension.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    magrittr (>= 1.5),
+    tools (>= 3.6.1)
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat
