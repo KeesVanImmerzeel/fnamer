@@ -7,15 +7,18 @@
 change_filename_extension(a_filename, new_ext = ".tif")
 }
 \arguments{
-\item{a_filename}{(character) filename}
+\item{a_filename}{filename (character).}
 
-\item{new_ext}{(character) new extension (with leading dot).}
+\item{new_ext}{new extension (with leading dot) (character)}
 }
 \value{
-character filename with new extension.
+filename with new extension (character)
 }
 \description{
 Change filename extension.
+}
+\details{
+a_filename can also be a character vector or list of character.
 }
 \examples{
 

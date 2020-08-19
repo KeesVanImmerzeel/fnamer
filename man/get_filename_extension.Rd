@@ -7,10 +7,10 @@
 get_filename_extension(a_filename)
 }
 \arguments{
-\item{a_filename}{filename (character)}
+\item{a_filename}{filename (character).}
 }
 \value{
-character filename extension (with leading dot)
+filename extension with leading dot (character).
 }
 \description{
 Get filename extension (with leading dot).

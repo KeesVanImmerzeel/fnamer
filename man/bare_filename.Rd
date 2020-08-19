@@ -7,13 +7,16 @@
 bare_filename(a_filename)
 }
 \arguments{
-\item{a_filename}{(character) filename}
+\item{a_filename}{filename (character).}
 }
 \value{
-character filename without path and extension
+filename without path and extension (character)
 }
 \description{
 Return the bare filename (no path, no extension)
+}
+\details{
+a_filename can also be a character vector or list of character.
 }
 \examples{
 bare_filename(file.path("tmp", "test.dat"))

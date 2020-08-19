@@ -4,23 +4,24 @@
 # ----------------------------------------------------------------------------
 #' Get filename extension (with leading dot).
 #'
-#' @param a_filename filename (character)
-#' @return character filename extension (with leading dot)
+#' @param a_filename filename (character).
+#' @return filename extension with leading dot (character).
 #' @examples
 #' get_filename_extension("test.dat")
 #' get_filename_extension("test")
 #'
 #' @export
 get_filename_extension <- function(a_filename) {
-      return(paste0(".", tools::file_ext(a_filename)))
+   return(paste0(".", tools::file_ext(a_filename)))
 }
 
 # ----------------------------------------------------------------------------
 #' Change filename extension.
 #'
-#' @param a_filename (character) filename
-#' @param new_ext (character) new extension (with leading dot).
-#' @return character filename with new extension.
+#' @inheritParams get_filename_extension
+#' @param new_ext new extension (with leading dot) (character)
+#' @return filename with new extension (character)
+#' @details a_filename can also be a character vector or list of character.
 #' @examples
 #'
 #' change_filename_extension("test.dat")
@@ -62,8 +63,9 @@ change_filename_extension <-
 
 #' Return the bare filename (no path, no extension)
 #'
-#' @param a_filename (character) filename
-#' @return character filename without path and extension
+#' @inheritParams get_filename_extension
+#' @return filename without path and extension (character)
+#' @details a_filename can also be a character vector or list of character.
 #' @examples
 #' bare_filename(file.path("tmp", "test.dat"))
 #' bare_filename(c(file.path("tmp", "test1.dat"), file.path("tmp", "test2.dat")))
