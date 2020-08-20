@@ -2,7 +2,7 @@
 
 <!-- badges: start -->
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/KeesVanImmerzeel/fnamer?branch=master&svg=true)](https://ci.appveyor.com/project/KeesVanImmerzeel/fnamer)
-[![Travis build status](https://travis-ci.com/KeesVanImmerzeel/fnamer.svg?branch=master)](https://travis-ci.com/KeesVanImmerzeel/fnamer)
+[![Travis Build Status](https://travis-ci.com/KeesVanImmerzeel/fnamer.svg?branch=master)](https://travis-ci.com/KeesVanImmerzeel/fnamer)
 <!-- badges: end -->
 
 Collection of functions to handle and maniputate filenames.
