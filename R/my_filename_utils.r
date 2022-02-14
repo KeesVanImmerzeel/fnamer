@@ -1,6 +1,3 @@
-# In development: to install package to the default library path (.libPaths()): devtools::install()
-# To create a binary package file: devtools::build(binary=TRUE). This creates a single zip-file.
-
 # ----------------------------------------------------------------------------
 #' Get filename extension (with leading dot).
 #'
