@@ -13,5 +13,6 @@ This package exports the following functions:
 \item \code{\link{get_filename_extension}}
 \item \code{\link{change_filename_extension}}
 \item \code{\link{bare_filename}}
+\item \code{\link{pks_dependencies}}
 }
 }

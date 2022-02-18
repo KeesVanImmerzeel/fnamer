@@ -84,3 +84,23 @@ bare_filename <- function( a_filename ) {
       }
 }
 
+# ----------------------------------------------------------------------------
+
+#' Return names of all dependent packages
+#'
+#' @param pks Names of packages (chr)
+#' @return Names of all packages that depend on packages specified (chr)
+#' @examples
+#' pks_dependencies(c("magrittr","dplyr"))
+#' @export
+pks_dependencies <- function(pks) {
+   . = NULL
+   .list_package_dependencies <- function(pkg) {
+      "https://cloud.r-project.org/" %>% utils::contrib.url() %>%
+         utils::available.packages() %>%
+         tools::package_dependencies(pkg, db = ., recursive = TRUE)
+   }
+   apply(array(pks), 1, .list_package_dependencies) %>%
+      unlist() %>%
+      unique()
+}

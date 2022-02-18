@@ -13,8 +13,9 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     magrittr (>= 1.5),
-    tools (>= 3.6.1)
-RoxygenNote: 7.1.0
+    tools (>= 3.6.1),
+    utils
+RoxygenNote: 7.1.2
 Roxygen: list(markdown = TRUE)
 Suggests: 
     testthat
